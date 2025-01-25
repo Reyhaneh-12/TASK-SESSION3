@@ -1,0 +1,74 @@
+.overview {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftsideview {
+    width: 560px;
+    height: 789px;
+}
+
+.rightsideview {
+    width: 560px;
+    height: 789px;
+}
+
+.How {
+    width: 441px;
+    height: 84px;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.31px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #011627;
+}
+
+.description {
+    width: 464px;
+    height: 91px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.31px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #011627;
+}
+
+.properties {
+    margin-top: 90px;
+
+}
+
+.properties li {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.Statistics {
+    display: flex;
+    width: 341px;
+    height: 68px;
+    text-align: left;
+    gap: 45px;
+}
+.Statistics p{
+    display: flex;
+    flex-direction: column;
+}
