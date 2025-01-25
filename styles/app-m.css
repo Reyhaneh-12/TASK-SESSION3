@@ -1,19 +1,25 @@
 .overview {
     margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 50px;
 }
 
 .leftsideview {
     width: 560px;
     height: 789px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
 }
 
 .rightsideview {
     width: 560px;
     height: 789px;
+    display: flex;
+    gap: 20px;
 }
 
 .How {
@@ -107,6 +113,7 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #011627;
+    
 }
 
 .blue {
@@ -125,16 +132,78 @@
     width: 173px;
     height: 52px;
     border-radius: 10px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
     font-size: 18px;
     font-weight: 500;
     line-height: 21.78px;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     background: #2EC4B6;
     color: #FFFFFF;
     box-shadow: 0px 4px 12px 0px #2EC4B67A;
+    border: none;
+}
+
+.leadsRed1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 270px;
+    height: 333px;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    /* border-image-source: linear-gradient(180deg, rgba(231, 29, 54, 0.6) 0%, rgba(231, 29, 54, 0) 100%); */
+
+}
+
+.leadsRed1 img {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.discriptionLeadRed {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: start;
+    gap: 20px;
+}
+
+.discriptionLeadRed h3 {
+    font-size: 26px;
+}
+
+.discriptionLeadRed p {
+    font-size: 18px;
+
+}
+
+.discriptionLeadRed a {
+    font-size: 18px;
+    color: #FF1D03;
+}
+
+.leadsgreen1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 270px;
+    height: 333px;
+    border: 1px solid #F6FFFE;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #F6FFFE;
+    margin-bottom: 20px;
+}
+
+.right-lead {
+    margin-top: 50px;
 }
