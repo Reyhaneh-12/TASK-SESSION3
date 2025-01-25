@@ -59,6 +59,7 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    list-style: none;
 }
 
 .Statistics {
@@ -68,7 +69,72 @@
     text-align: left;
     gap: 45px;
 }
-.Statistics p{
+
+.Statistics p {
     display: flex;
     flex-direction: column;
+}
+
+.red {
+    color: #FF1D03;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.31px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.rightStatistics {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #011627;
+}
+
+.leftStatistics {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #011627;
+}
+
+.blue {
+    color: #2EC4B6;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.31px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.exploreNow {
+    width: 173px;
+    height: 52px;
+    border-radius: 10px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: #2EC4B6;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 12px 0px #2EC4B67A;
 }
