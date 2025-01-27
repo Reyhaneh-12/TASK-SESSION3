@@ -150,7 +150,7 @@
     gap: 40px;
     width: 270px;
     height: 333px;
-    border: 1px solid red;
+    border: 1px solid rgb(178, 68, 68);
     border-radius: 25px;
     padding: 20px;
     background-color: #FFFFFF;
@@ -165,6 +165,7 @@
     padding-top: 10px;
     padding-left: 10px;
     box-sizing: border-box;
+    
 }
 
 .discriptionLeadRed {
@@ -173,6 +174,7 @@
     /* justify-content: space-between; */
     align-items: start;
     gap: 20px;
+
 }
 
 .discriptionLeadRed h3 {
@@ -206,4 +208,29 @@
 
 .right-lead {
     margin-top: 50px;
+}
+.discriptionLeadgreen a{
+    color: #2EC4B6;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.leadsgreen1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 270px;
+    height: 333px;
+    border: 1px solid #F6FFFE;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #F6FFFE;
+    margin-bottom: 20px;
+}
+.discriptionLeadgreen a{
+    color: #2EC4B6;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
 }
