@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&family=Vazirmatn:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: intro;
+}
+
+header {
+    background-image: url(../images/background.svg);
+    color: #011627;
+}
+
+.navbar {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78.66px;
+    color: #E71D36;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 10px;
+}
+
+button {
+    width: 167px;
+    height: 52px;
+    border-radius: 48px;
+    border: none;
+    background: #E71D36;
+    color: #FFFFFF;
+    font-size: 18px;
+}
